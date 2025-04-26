@@ -50,6 +50,7 @@ p {
   font-weight: 400;
   max-width: 625px;
   margin: 0 auto;
+  line-height: 1.8;
 }
 
 .button1 {
@@ -88,4 +89,36 @@ p {
   flex-direction: column;
   text-align: left !important;
   max-width: 400px;
+}
+
+.clipboardacess {
+  margin-bottom: 60px;
+}
+
+.clipboardacess img {
+  margin-top: 120px;
+}
+
+.featuresend {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.featuresendtext {
+  text-align: center;
+  max-width: 310px;
+  margin: 0 10px;
+}
+
+.featuresendtext img {
+  width: auto;
+  height: 30px;
+  margin-bottom: -15px;
+}
+
+div p {
+  font-size: 14px;
 }
