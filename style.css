@@ -4,18 +4,26 @@
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
   font-style: normal;
-  max-width: 1440px;
   margin: 0;
+  box-sizing: border-box;
 }
 
-body /* Precisei colocar o text-align para o body, pois o seletor universal estava tendo prioridade, não sei dizer o porquê */ {
+body {
   text-align: center;
   color: hsl(210, 10%, 33%);
+  max-width: 1440px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  width: 100%;
 }
 
 header {
-  position: relative; /* Permite posicionar elementos dentro do header */
+  position: relative;
   margin-bottom: 120px;
+}
+
+.header-background {
+  max-width: auto;
 }
 
 header .logo {
@@ -203,9 +211,14 @@ div p {
   color: hsl(171, 66%, 44%);
 }
 
-@media screen {
+.attribution {
+  background-color: hsla(202, 11%, 66%, 0.109);
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
   * {
-    font-weight: 600; /*  alterar se necessário, se não, apagar */
+    font-weight: 600;
   }
 
   body {
@@ -214,7 +227,7 @@ div p {
 
   .header-background {
     content: url(images/bg-header-mobile.png);
-    max-width: auto;
+    max-width: 375px;
     overflow: hidden;
   }
 
@@ -229,7 +242,7 @@ div p {
   }
 
   img {
-    max-width: 375px;
+    max-width: 80%;
   }
 
   header .logo {
@@ -250,7 +263,6 @@ div p {
   }
 
   .button1 {
-    padding: 15px 30px; /* editar apagar */
     margin-right: 0;
     display: flex;
     flex-direction: column;
@@ -258,7 +270,6 @@ div p {
     width: 80%;
   }
   .button2 {
-    padding: 15px 30px; /* editar apagar */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,6 +294,9 @@ div p {
 
   .featuresend {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   .footerimg {
@@ -308,7 +322,6 @@ div p {
   }
 
   .footerbuttoncontainer {
-    max-width: 500px; /*editar apagar*/
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
