@@ -24,12 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](my-solution/Clipboard%20Solution%20Print.PNG)
+![](./src/my-solution/Clipboard%20Solution%20Print.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://pedrocrqs.github.io/Clipboard-landing-page/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-solution-q-ela4TSiN)
+- Live Site URL: [GitHub](https://pedrocrqs.github.io/Clipboard-landing-page/)
 
 ## My process
 
